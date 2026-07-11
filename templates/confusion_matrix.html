@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Confusion Matrix</title>
+
+    <link rel="stylesheet"
+    href="{{ url_for('static',
+    filename='css/style.css') }}">
+</head>
+
+<body class="crop-page">
+
+<div class="result-card">
+
+    <h1>📊 Confusion Matrix</h1>
+
+    <img
+    src="{{ url_for('static',
+    filename='images/confusion_matrix.png') }}"
+    width="500">
+
+    <br><br>
+
+    <p>
+        The confusion matrix shows the
+        classification performance of the
+        crop recommendation model.
+    </p>
+
+    <br>
+
+    <a href="/" class="home-btn">
+        🏠 Home
+    </a>
+
+</div>
+
+</body>
+</html>
